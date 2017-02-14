@@ -42,7 +42,7 @@
               <td>{{tz.nameOfCity}}</td>
               <td>{{showDIFF(tz.differenceToGMT)}}</td>
               <td>{{tz.curTime | time}}</td>
-              <td><div class="list-icon action-icon"><div><a href="" ng-click="editTZ(tz._id);"><i class="fa fa-pencil"></i></a></div><div><a href="" ng-click="removeTZ('{{tz._id}}');"><i class="glyphicon glyphicon-remove"></i></a></div></td>
+              <td><div class="list-icon action-icon"><div><a href="" ng-click="editTZ(tz._id);">Edit<i class="fa fa-pencil"></i></a></div><div><a href="" ng-click="removeTZ('{{tz._id}}');"><i class="glyphicon glyphicon-remove"></i></a></div></td>
           </tr>
         </tbody>
         <tfoot class="hide-if-no-paging">
